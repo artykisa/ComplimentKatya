@@ -2,15 +2,22 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { ComplimentComponent } from './compliment/compliment.component';
+import {HttpClientModule} from "@angular/common/http";
+import {ComplimentService} from "../@core/services/compliment.service";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ComplimentComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    ComplimentService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
