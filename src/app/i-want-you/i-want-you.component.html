@@ -1,0 +1,5 @@
+<button style="margin-left: 100px" (click)="onIWantYouClick()">Хочу тебя</button>
+<div [ngSwitch]="IWantYou">
+  <div *ngSwitchCase=true>i want you too</div>
+  <div *ngSwitchCase=false>i want you more</div>
+</div>
