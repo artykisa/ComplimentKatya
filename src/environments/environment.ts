@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  complimentUrl: "https://complimentr.com/api"
+  complimentUrl: "https://complimentr.com/api",
+  catUrl: "https://thatcopy.pw/catapi/rest/"
 };
 
 /*

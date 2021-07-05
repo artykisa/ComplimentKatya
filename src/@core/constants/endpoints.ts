@@ -8,9 +8,13 @@ export class Endpoints{
   public getComplimentUrl(): string{
     return endpoints.compliment;
   }
+  public getCatPictureUrl(): string{
+    return endpoints.catPicture;
+  }
 }
 
 const endpoints = {
-  compliment: environment.complimentUrl
+  compliment: environment.complimentUrl,
+  catPicture: environment.catUrl
 }
 

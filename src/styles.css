@@ -5,8 +5,6 @@ h1 { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 100px; f
 button{
   margin: 0;
   position: absolute;
-  top: 90%;
-  left: 50%;
   padding:0.35em 1.2em;
   border:0.1em solid #000000;
   border-radius:0.12em;
@@ -19,7 +17,12 @@ button{
   transition: all 0.2s;
 }
 
-.button:hover {
+button:hover {
   color:#000000;
   background-color:#FFFFFF;
+}
+
+img{
+  width: 400px;
+  height: 400px;
 }
